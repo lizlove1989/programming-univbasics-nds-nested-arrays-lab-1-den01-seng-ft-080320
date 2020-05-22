@@ -31,8 +31,8 @@ end
 
 def matrix_update(matrix, row, column, new_value)
   
-  matrix[row][column] = "apples"
-  puts matrix[row]
+  matrix[row][column] = new_value
+  matrix[row]
 
   
 end
